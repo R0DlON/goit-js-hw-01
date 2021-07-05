@@ -1,0 +1,39 @@
+.page__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 500px;
+}
+
+.page__container:nth-child(2n + 1) {
+  background-color: blanchedalmond;
+}
+
+.page__container--red:nth-child(2n + 2) {
+  background-color: red;
+}
+
+.header {
+  height: 300px;
+}
+
+.header--red {
+  height: 400px;
+  background-color: red;
+}
+
+.button--on {
+  padding: 20px;
+}
+
+.button--off {
+  background-color: black;
+}
+/*# sourceMappingURL=main.css.map */
